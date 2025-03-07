@@ -16,7 +16,7 @@ spec:
         - name: gitlab-registry-secret
       containers:
         - name: node-app-gitlab
-          image: registry.gitlab.com/prathmesh.arcade/node-js-appication:112bfa
+          image: registry.gitlab.com/prathmesh.arcade/node-js-appication:41bb2c26
           ports:
             - containerPort: 3000
           env:
