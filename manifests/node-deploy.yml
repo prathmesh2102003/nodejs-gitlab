@@ -12,7 +12,7 @@ spec:
       labels:
         app: node-app-gitlab
     spec:
-        imagePullSecrets:
+      imagePullSecrets:
         - name: gitlab-registry-secret
       containers:
         - name: node-app-gitlab
